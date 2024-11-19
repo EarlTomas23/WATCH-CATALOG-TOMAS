@@ -1,0 +1,63 @@
+{"Relo":[
+    {
+        "name": "CASIO",
+        "description": "Casio watches are known for their durability, reliability, and functionality. They are often used in outdoor and sports activities, as well as in industrial and military settings.",
+        "price": "₱2679,99 per order",
+        "image": "Casio.jpg"
+    },
+    {
+        "name": "ROLEX",
+        "description": "Rolex watches are known for precision, waterproofness, autonomy, robustness, simplicity, craftsmanship, comfort and durability.",
+        "price": "₱29,799.35 per order",
+        "image": "Rolex.jpg"
+    },
+    {
+        "name": "ZENITH",
+        "description": "ZENITH combines the beauty of contemporary design with the savoir faire and tradition of Swiss watchmaking.",
+        "price": "₱863,368,89 per order",
+        "image": "Zenith watch.jpg"
+    },
+    {
+        "name": "TIMEX",
+        "description": "Timex watches are known for their reliability, affordability, and timeless design.",
+        "price": "10,789,54 per order",
+        "image": "Timex watch.jpg"
+    },
+    {
+        "name": "SEIKO",
+        "description": " Seiko watches are known for precision and accuracy, innovation and refinement.",
+        "price": "₱7,942.00 per order",
+        "image": "Seiko watcg.jpg"
+    },
+    {
+        "name": "ORIENT",
+        "description": "One of the hallmarks of the Orient Watch brand is its dedication to the development of the mechanical movement.",
+        "price": "₱15,763,69 per order",
+        "image": "orient watch.jpg"
+    },
+    {
+        "name": "OMEGA",
+        "description": "Each collection is designed to suit any style, from the prestigious and elegant De Ville watches, to the timeless Constellation collection, embodying Swiss watchmaking heritage and unparalleled precision.",
+        "price": "₱1,537,17 per order",
+        "image": "omega watch2.jpg"
+    },
+    {
+        "name": "MORIS",
+        "description": "The Morris York watches have a stainless steel structure and crystal glass the watches are covered with sapphire, thus making them watches resistant to shocks and scratches. ",
+        "price": "₱13,531,57 per order",
+        "image": "Moris watch.jpg"
+    },
+        {
+        "name": "CITIZEN",
+        "description": "The first to create quartz crystal and titanium timepieces ",
+        "price": "₱27,465,76 per order.",
+        "image": "citizen watch.jpg"
+    },
+        {
+        "name": "IWC",
+        "description": "IWC are pioneers in high-quality pilot and aviation watches, and for their expertise in their use of titanium. Slick, contemporary, and quality aviation watches renowned for their reliability.",
+        "price": "₱622,567,50 per order",
+        "image": "Casio watch.jpg"
+    }
+]
+}

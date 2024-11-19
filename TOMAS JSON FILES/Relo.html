@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Earl's Online Luxury Watch Shop</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        h1 {
+            margin: 20px 0;
+            font-size: 2em;
+            border-bottom: 1px dotted #000;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .relo-card {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            margin: 10px;
+            padding: 10px;
+            width: 200px;
+            text-align: center;
+        }
+        .relo-card img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+        .relo-card h3 {
+            margin: 10px 0;
+        }
+        .relo-card p {
+            color: #555;
+        }
+        .price {
+            font-weight: bold;
+            color: #e74c3c;
+        }
+        footer {
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #f1f1f1;
+            border-top: 1px solid #ddd;
+        }
+        footer p {
+            margin: 5px 0;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <h1>Earl's Online Luxury Watch Shop</h1>
+    <div class="container" id="Relo-container"></div>
+
+    <script>
+        // Fetch data from the JSON file
+        fetch('Products.json')
+            .then(response => response.json()) // Ensure to return the parsed JSON
+            .then(data => {
+                const container = document.getElementById('Relo-container');
+                
+                // Render each fruit card
+                data.Relo.forEach(relo => { // Access 'ulam' array from data
+                    const card = document.createElement('div');
+                    card.className = 'relo-card';
+                    card.innerHTML = `
+                        <img src="${relo.image}" alt="${relo.name}">
+                        <h3>${relo.name}</h3>
+                        <p>${relo.description}</p>
+                        <p class="price">${relo.price}</p>
+                    `;
+                    container.appendChild(card);
+                });
+            })
+            .catch(error => {
+                console.error('Error fetching the data:', error);
+            });
+    </script>
+    <footer>
+      <p>Designed by:Earl Rex Tomas</p>
+      <p>12-Cooper</p> 
+    </footer>
+</body>
+</html>
